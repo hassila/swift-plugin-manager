@@ -29,7 +29,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-system", from: "1.0.0"),
         .package(url: "https://github.com/apple/swift-log", from: "1.0.0"),
-        .package(url: "https://github.com/hassila/swift-plugin", branch: "main")
+        .package(url: "https://github.com/hassila/swift-plugin", from: "0.1.0")
     ],
     targets: [
         .target(
