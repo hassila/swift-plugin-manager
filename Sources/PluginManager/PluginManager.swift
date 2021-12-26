@@ -98,7 +98,7 @@ extension PluginManager {
     
     logger.debug("Loading plugins from [\(self.pluginDirectory)] of type \(String.init(describing: T.self)).")
       for file in self.pluginDirectory.directoryEntries {
-        if file.extension == defaultPluginExtension {
+        if file.extension == self.pluginSuffix {
           do {
             try self.load (plugin: file)
           } catch PluginManagerError.missingPluginModuleEntrypoint(let path, let reason) {
