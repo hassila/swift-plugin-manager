@@ -1,3 +1,8 @@
+[![Swift version](https://img.shields.io/badge/Swift-5.5-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.5-orange?style=flat-square)
+[![Ubuntu](https://github.com/hassila/swift-plugin-manager/actions/workflows/swift-linux.yml/badge.svg?branch=main)](https://github.com/hassila/swift-plugin-manager/actions/workflows/swift-linux.yml)
+[![macOS](https://github.com/hassila/swift-plugin-manager/actions/workflows/swift-macos.yml/badge.svg)](https://github.com/hassila/swift-plugin-manager/actions/workflows/swift-macos.yml)
+[![codecov](https://codecov.io/gh/hassila/swift-plugin-manager/branch/main/graph/badge.svg)](https://codecov.io/gh/hassila/swift-plugin-manager)
+
 # PluginManager
 
 Support for dynamic loading and management of plugins to extend hosting application functionality.
