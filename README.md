@@ -106,3 +106,4 @@ Add a proper github pipeline with autogenerating of html for GH pages in the fut
 Autogeneration of plugin and hosting API:s semvers when doinga a release using Swift Package Managers diagnose-api-breaking-changes (previously named experimental-api-diff) feature. Then we can expose the semver as another known entry point in the module and check that it is compatible during loading.
 
 Feedback and PR:s are welcome.
+
