@@ -55,7 +55,7 @@ For point 1 and 2, see the sample projects linked above.
 For point 3, to add PluginManager as dependency in your own project to add plugin capabilities, it's as simple as adding a dependencies clause to your Package.swift:
 ```
 dependencies: [
-    .package(url: "https://github.com/hassile/swift-plugin-manager.git")
+    .package(url: "https://github.com/hassila/swift-plugin-manager.git")
 ]
 ```
 
